@@ -1,0 +1,31 @@
+* {
+  font-family: "Viga", sans-serif;
+  text-shadow: 0 0 1px black;
+}
+
+body {
+  height: 100vh;
+}
+body form {
+  font-size: 1.2rem;
+}
+body .form-anoNascimento {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+body .form-anoNascimento input[type=number]::placeholder {
+  font-size: 0.8rem;
+}
+body .container-check {
+  margin: auto;
+  max-width: 335px;
+}
+body #aceitarEmail {
+  font-size: 1rem;
+}
+body #aceitarEmail .form-check {
+  gap: 1rem;
+}
+
+/*# sourceMappingURL=main.css.map */
