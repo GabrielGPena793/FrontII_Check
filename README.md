@@ -5,12 +5,12 @@
 - A aplicação consiste em um formulário que ao ser preenchido cria cards com as informações preenchidas.
 
 
-FORMULÁRIO: 
+**FORMULÁRIO:**
 
 O formulário deve ter pelo menos 4 campos: Título, Descrição e URL da imagem e um botão de submit.
 Após o preenchimento, ao clicar no botão de submit, as informações devem ser adicionadas a um novo card na página.
 
-CARDS:
+**CARDS:**
 
 Os cards devem ter uma imagem e constar as informações previamente preenchidas no formulário. O comportamento se dará de 
 forma que as informações preenchidas sejam exibidas nesta seção de cards.
