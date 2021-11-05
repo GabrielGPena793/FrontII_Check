@@ -73,7 +73,6 @@ button.addEventListener("click", (event) =>{
     }
 
     if(anoNascimento.value <= 1964){
-        
         resultado.innerHTML +=`<p> Você é da geração Baby Boomers </p>
         <p>A geração dos Baby Boomers recebeu esse nome em referência ao aumento no número de nascimentos de bebês após o fim da Segunda Guerra Mundial, em 1945. </p>`
     }else if(anoNascimento.value > 1964 && anoNascimento.value <= 1980){
@@ -86,8 +85,13 @@ button.addEventListener("click", (event) =>{
         resultado.innerHTML += `<p> Você é da Geração Z</p>
         <p>Esses jovens têm menos de 23 anos e boa parte deles ainda está entrando em seus primeiros empregos. Os gen Z são conhecidos por sua extrema conexão com a tecnologia, são indivíduos que não viveram nem um ano de suas vidas sem internet e foram desde cedo expostos às redes sociais e à cultura pop</p>`
     }
-    
-    resultado.appendChild(img)//executar o elmento que foi criado
+    if(semGenero.checked == false){
+        resultado.appendChild(img)//executar o elmento que foi criado
+        
+    }else{
+        img.style.display = "none"
+    }
+   
     }
 
 })
